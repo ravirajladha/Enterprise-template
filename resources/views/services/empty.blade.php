@@ -1,4 +1,5 @@
 <x-app-layout>
+  <link rel="stylesheet" href="../assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css">
 
   <div class="body-wrapper">
     <div class="container-fluid">
