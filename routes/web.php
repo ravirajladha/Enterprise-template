@@ -1,6 +1,7 @@
 <?php
 
-use App\Http\Controllers\{ProfileController,ServiceController};
+use App\Http\Controllers\{ManufacturingController, ProfileController, RetailController, ServiceController};
+use App\Http\Controllers\DistributionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -40,6 +41,17 @@ Route::middleware('auth')->group(function () {
     Route::get('/warranty_claim', [ServiceController::class, 'warranty_claim'])->name('services.warranty_claim');
     Route::get('/invoice', [ServiceController::class, 'invoice'])->name('services.invoice');
     Route::get('/maintenance_visit', [ServiceController::class, 'maintenance_visit']);
+    Route::get('/maintenance_schedule', [ServiceController::class, 'maintenance_schedule']);
+    Route::get('/transactions', [ServiceController::class, 'transactions']);
+
+
+    Route::get('/analysis', [ManufacturingController::class, 'analysis']);
+
+    //to be started when the pages will be created
+    Route::get('/transactions', [RetailController::class, 'transactions']);
+    Route::get('/transactions', [DistributionController::class, 'transactions']);
+
+
   
 });
 

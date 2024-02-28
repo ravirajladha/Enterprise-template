@@ -38,4 +38,13 @@ class ServiceController extends Controller
     {
         return view('services.maintenance_visit');
     }
+    public function maintenance_schedule()
+    {
+        return view('services.maintenance_schedule');
+    }
+    public function transactions()
+    {
+        return view('services.transactions');
+    }
+ 
 }

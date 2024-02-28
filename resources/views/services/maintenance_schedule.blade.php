@@ -16,13 +16,13 @@
               <div class="card-body px-4 py-3">
                   <div class="row align-items-center">
                       <div class="col-9">
-                          <h4 class="fw-semibold mb-8">Maintenance Visit</h4>
+                          <h4 class="fw-semibold mb-8">Maintenance Schedule</h4>
                           <nav aria-label="breadcrumb">
                               <ol class="breadcrumb">
                                   <li class="breadcrumb-item">
                                       <a class="text-muted text-decoration-none" href="/services">Home</a>
                                   </li>
-                                  <li class="breadcrumb-item" aria-current="page">Maintenance Visit -> Id: 2024/02/5215858</li>
+                                  <li class="breadcrumb-item" aria-current="page">Maintenance Schedule -> Id: 2024/02/5215858</li>
                               </ol>
                           </nav>
                       </div>
@@ -91,22 +91,18 @@
                                 </div>
   
                                 <div class="mb-4">
-                                  <label for="exampleInputtext" class="form-label fw-semibold">Contact Number</label>
-                                  <input type="text" class="form-control" id="exampleInputtext"
-                                    placeholder="Enter Contact Number">
+                                  <label for="exampleInputtext" class="form-label fw-semibold">Status</label>
+                                  <input type="text" class="form-control" id="exampleInputtext" vakue="Active"
+                                    placeholder="Enter Status"> 
                                 </div>
   
                                 <div class="mb-4">
-                                  <label for="exampleInputtext1" class="form-label fw-semibold">Email</label>
-                                  <input type="email" class="form-control" id="exampleInputtext1"
-                                    placeholder="Enter email ID">
+                                  <label for="exampleInputtext1" class="form-label fw-semibold">Transaction Date</label>
+                                  <input type="email" class="form-control" id="exampleInputtext1" 
+                                    placeholder="Enter Transaction Date">
                                 </div>
   
-                                <div class="">
-                                  <label for="exampleInputtext4" class="form-label fw-semibold">Description of Issue</label>
-                                    <textarea class="form-control" id="exampleInputtext4" rows="3" placeholder="Write a brief description about the issue"></textarea>
-                                    <small id="textHelp" class="form-text text-muted">Describe the issue</small>
-                                </div>
+                                
   
                                 {{-- <div class="mb-4">
                                   <label class="form-label fw-semibold">Location</label>
@@ -181,10 +177,10 @@
                       <div class="card">
                         <div class="card-body">
                           <div class="mb-2">
-                            <h5 class="mb-0">Purpose</h5>
+                            <h5 class="mb-0">Schedule</h5>
                           </div>
                           <p class="card-subtitle mb-3">
-                           This is from the Data Table with ascending/ Descending Functionality
+                           This  Data Table provides with ascending/ Descending Functionality
                           </p>
             
                       <div class="table-responsive">
@@ -192,11 +188,11 @@
                           <thead>
                             <!-- start row -->
                             <tr>
-                              <th>No.</th>
                               <th>Item Code</th>
-                              <th>Item Name</th>
+                              <th>Scheduled Date</th>
+                              <th>Actual Date</th>
                               <th>Sales Person</th>
-                              <th>Description</th>
+                              <th>Completion Date</th>
                               <th>Action</th>
                             </tr>
                             <!-- end row -->
@@ -204,30 +200,30 @@
                           <tbody>
                             <!-- start row -->
                             <tr>
-                              <td>1</td>
-                              <td>P225</td>
-                              <td>Laptop</td>
-                              <td>Abraham</td>
-                              <td>Regular Check</td>
-                             
+                              <td>ABC123</td>
+                              <td>2024-03-01</td>
+                              <td>2024-03-01</td>
+                              <td>John Doe</td>
+                              <td>2024-03-01</td>
                               <td>
-                                <a href="#" class="btn btn-sm btn-info" title="View"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="btn btn-sm btn-primary" title="Edit"><i class="fa fa-edit"></i></a>
-                            </td>
-                            </tr>
+                                  <a href="#" class="btn btn-sm btn-info" title="View"><i class="fa fa-eye"></i></a>
+                                  <a href="#" class="btn btn-sm btn-primary" title="Edit"><i class="fa fa-edit"></i></a>
+                              </td>
+                          </tr>
                             <!-- end row -->
                             <!-- start row -->
-                          
+                            
+                            <!-- end row -->
                           
                           </tbody>
                           <tfoot>
                             <!-- start row -->
                             <tr>
-                              <th>No.</th>
                               <th>Item Code</th>
-                              <th>Item Name</th>
+                              <th>Scheduled Date</th>
+                              <th>Actual Date</th>
                               <th>Sales Person</th>
-                              <th>Description</th>
+                              <th>Completion Date</th>
                               <th>Action</th>
                             </tr>
                             <!-- end row -->

@@ -95,6 +95,122 @@
             <span class="hide-menu">maintenance_visit</span>
           </a>
         </li>
+        <li class="sidebar-item">
+          <a href="/maintenance_schedule" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">maintenance_schedule</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="/transactions" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">transactions</span>
+          </a>
+        </li>
+      </ul> </li>
+    <li class="sidebar-item">
+      <a
+        class="sidebar-link has-arrow"
+        href="javascript:void(0)"
+        aria-expanded="false"
+      >
+        <span class="d-flex">
+          <i class="ti ti-box-multiple"></i>
+        </span>
+        <span class="hide-menu">Manufacturing</span>
+      </a>
+      <ul aria-expanded="false" class="collapse first-level">
+        <li class="sidebar-item">
+          <a href="/analysis" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Analysis</span>
+          </a>
+        </li>
+        
+        
+        
+        <li class="sidebar-item">
+          <a href="/transactions" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">transactions</span>
+          </a>
+        </li>
+      </ul> </li>
+    <li class="sidebar-item">
+      <a
+        class="sidebar-link has-arrow"
+        href="javascript:void(0)"
+        aria-expanded="false"
+      >
+        <span class="d-flex">
+          <i class="ti ti-box-multiple"></i>
+        </span>
+        <span class="hide-menu">Retail</span>
+      </a>
+      <ul aria-expanded="false" class="collapse first-level">
+        <li class="sidebar-item">
+          <a href="/project_management" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Project Management</span>
+          </a>
+        </li>
+       
+       
+      </ul> </li>
+    <li class="sidebar-item">
+      <a
+        class="sidebar-link has-arrow"
+        href="javascript:void(0)"
+        aria-expanded="false"
+      >
+        <span class="d-flex">
+          <i class="ti ti-box-multiple"></i>
+        </span>
+        <span class="hide-menu">Distribution</span>
+      </a>
+      <ul aria-expanded="false" class="collapse first-level">
+        <li class="sidebar-item">
+          <a href="/project_management" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Project Management</span>
+          </a>
+        </li>
+        
+        <li class="sidebar-item">
+          <a href="/maintenance_schedule" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">maintenance_schedule</span>
+          </a>
+        </li>
+      
       </ul> </li>
       <li class="nav-small-cap">
         <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
