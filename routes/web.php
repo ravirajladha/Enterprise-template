@@ -49,6 +49,10 @@ Route::middleware('auth')->group(function () {
 
     //to be started when the pages will be created
     Route::get('/transactions', [RetailController::class, 'transactions']);
+    
+    Route::get('/warehousetree', [RetailController::class, 'warehousetree']);
+    Route::get('/stocksummary', [RetailController::class, 'stocksummary']);
+    
     Route::get('/transactions', [DistributionController::class, 'transactions']);
 
 

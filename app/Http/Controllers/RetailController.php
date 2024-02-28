@@ -10,4 +10,12 @@ class RetailController extends Controller
     {
         return view('retail.analysis');
     }
+    public function warehousetree()
+    {
+        return view('retail.warehousetree');
+    }
+    public function stocksummary()
+    {
+        return view('retail.stocksummary');
+    }
 }
