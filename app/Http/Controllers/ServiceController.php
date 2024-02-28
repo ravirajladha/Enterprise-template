@@ -46,5 +46,13 @@ class ServiceController extends Controller
     {
         return view('services.transactions');
     }
+    public function customer()
+    {
+        return view('services.customer');
+    }
+    public function campaign()
+    {
+        return view('services.campaign');
+    }
  
 }

@@ -106,6 +106,16 @@
           </a>
         </li>
         <li class="sidebar-item">
+          <a href="/campaign" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">campaign</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
           <a href="/transactions" class="sidebar-link">
             <div
               class="round-16 d-flex align-items-center justify-content-center"
@@ -113,6 +123,16 @@
               <i class="ti ti-circle"></i>
             </div>
             <span class="hide-menu">transactions</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="/customer" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">customer detail</span>
           </a>
         </li>
       </ul> </li>

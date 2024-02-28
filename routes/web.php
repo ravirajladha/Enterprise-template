@@ -43,6 +43,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/maintenance_visit', [ServiceController::class, 'maintenance_visit']);
     Route::get('/maintenance_schedule', [ServiceController::class, 'maintenance_schedule']);
     Route::get('/transactions', [ServiceController::class, 'transactions']);
+    Route::get('/customer', [ServiceController::class, 'customer']);
+    Route::get('/campaign', [ServiceController::class, 'campaign']);
 
 
     Route::get('/analysis', [ManufacturingController::class, 'analysis']);
