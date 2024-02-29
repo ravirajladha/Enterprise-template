@@ -54,5 +54,9 @@ class ServiceController extends Controller
     {
         return view('services.campaign');
     }
+    public function subscription()
+    {
+        return view('services.subscription');
+    }
  
 }

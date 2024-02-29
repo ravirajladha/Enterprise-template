@@ -135,6 +135,16 @@
             <span class="hide-menu">customer detail</span>
           </a>
         </li>
+        <li class="sidebar-item">
+          <a href="/subscription" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">subscription</span>
+          </a>
+        </li>
       </ul> </li>
     <li class="sidebar-item">
       <a
@@ -158,19 +168,20 @@
             <span class="hide-menu">Analysis</span>
           </a>
         </li>
-        
-        
-        
         <li class="sidebar-item">
-          <a href="/transactions" class="sidebar-link">
+          <a href="/operations" class="sidebar-link">
             <div
               class="round-16 d-flex align-items-center justify-content-center"
             >
               <i class="ti ti-circle"></i>
             </div>
-            <span class="hide-menu">transactions</span>
+            <span class="hide-menu">Operations</span>
           </a>
         </li>
+        
+        
+        
+       
       </ul> </li>
     <li class="sidebar-item">
       <a

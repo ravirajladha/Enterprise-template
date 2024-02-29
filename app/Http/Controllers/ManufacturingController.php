@@ -10,4 +10,8 @@ class ManufacturingController extends Controller
     {
         return view('manufacturing.analysis');
     }
+    public function operations()
+    {
+        return view('manufacturing.shop_floor_management');
+    }
 }

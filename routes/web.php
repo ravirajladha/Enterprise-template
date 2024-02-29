@@ -45,9 +45,11 @@ Route::middleware('auth')->group(function () {
     Route::get('/transactions', [ServiceController::class, 'transactions']);
     Route::get('/customer', [ServiceController::class, 'customer']);
     Route::get('/campaign', [ServiceController::class, 'campaign']);
+    Route::get('/subscription', [ServiceController::class, 'subscription']);
 
 
     Route::get('/analysis', [ManufacturingController::class, 'analysis']);
+    Route::get('/operations', [ManufacturingController::class, 'operations']);
 
     //to be started when the pages will be created
     Route::get('/transactions', [RetailController::class, 'transactions']);

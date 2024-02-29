@@ -1,7 +1,6 @@
 <x-app-layout>
 
-  <link rel="stylesheet" href="../assets/libs/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css">
-  <link rel="stylesheet" href="../assets/libs/ckeditor/samples/css/samples.css">
+
 
   <div class="body-wrapper">
     <div class="container-fluid">
@@ -9,15 +8,15 @@
 <div class="card-body px-4 py-3">
 <div class="row align-items-center">
   <div class="col-9">
-    <h4 class="fw-semibold mb-8">Contact</h4>
+    <h4 class="fw-semibold mb-8">Campaign</h4>
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <a class="text-muted text-decoration-none" href="../main/index.html"
+          <a class="text-muted text-decoration-none" href="/services"
             >Home</a
           >
         </li>
-        <li class="breadcrumb-item" aria-current="page">Contact</li>
+        <li class="breadcrumb-item" aria-current="page">Campaign</li>
       </ol>
     </nav>
   </div>
@@ -43,81 +42,56 @@
           <div class="col-12">
             <div class="card">
               <div class="border-bottom title-part-padding">
-                <h4 class="card-title mb-0">Basic Preset Ck Editor</h4>
+                <h4 class="card-title mb-0">Add Campaign</h4>
               </div>
               <div class="card-body">
-                <textarea cols="80" id="testedit" name="testedit" rows="10" data-sample="1" data-sample-short>
-                                  &lt;p&gt;The &lt;strong&gt;Basic&lt;/strong&gt; package is perfect for short text fields that require little formatting, such as:&lt;/p&gt;
+                <form>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Text Here..."></input>
+                        <small id="textHelp" class="form-text text-muted">Campaign Name</small>
+                    </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="form-group">
+                        <input class="form-control" type="file" ></input>
+                        <small id="textHelp" class="form-text text-muted">Campaign Image</small>
+                    </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="form-group">
+                        <select class="form-select"
+                        aria-label="Default select example">
+                        <option selected>Vendor1</option>
+                        <option value="1">Vendor2</option>
 
-                                  &lt;ul&gt;
-                                      &lt;li&gt;&lt;a href="https://ckeditor.com/blog/"&gt;Blog&lt;/a&gt; comments.&lt;/li&gt;
-                                      &lt;li&gt;Contact forms.&lt;/li&gt;
-                                      &lt;li&gt;Short text snippets.&lt;/li&gt;
-                                  &lt;/ul&gt;
-                              </textarea>
-              </div>
-            </div>
-          </div>
-
-
-        <div class="modal fade" id="addContactModal" tabindex="-1" role="dialog"
-          aria-labelledby="addContactModalTitle" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header d-flex align-items-center">
-                <h5 class="modal-title">Contact</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <div class="add-contact-box">
-                  <div class="add-contact-content">
-                    <form id="addContactModalTitle">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="mb-3 contact-name">
-                            <input type="text" id="c-name" class="form-control" placeholder="Name" />
-                            <span class="validation-text text-danger"></span>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="mb-3 contact-email">
-                            <input type="text" id="c-email" class="form-control" placeholder="Email" />
-                            <span class="validation-text text-danger"></span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="mb-3 contact-occupation">
-                            <input type="text" id="c-occupation" class="form-control" placeholder="Occupation" />
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="mb-3 contact-phone">
-                            <input type="text" id="c-phone" class="form-control" placeholder="Phone" />
-                            <span class="validation-text text-danger"></span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-12">
-                          <div class="mb-3 contact-location">
-                            <input type="text" id="c-location" class="form-control" placeholder="Location" />
-                          </div>
-                        </div>
-                      </div>
-                    </form>
+                    </select>
+                        <small id="textHelp" class="form-text text-muted">Vendor Type</small>
+                    </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="form-group">
+                        <input class="form-control" type="date" ></input>
+                        <small id="textHelp" class="form-text text-muted">Expiry Date</small>
+                    </div>
+                    </div>
+                    <div class="col-12 mt-4">
+                      <div class="form-group">
+                        <textarea class="form-control" rows="3" width="100" placeholder="Text Here..."></textarea>
+                        <small id="textHelp" class="form-text text-muted">Description</small>
+                    </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button id="btn-add" class="btn btn-success rounded-pill px-4">Add</button>
-                <button id="btn-edit" class="btn btn-success rounded-pill px-4">Save</button>
-                <button class="btn btn-danger rounded-pill px-4" data-bs-dismiss="modal"> Discard </button>
+                  
+              </form>
+                                 
               </div>
             </div>
           </div>
-        </div>
+
+
+      
         <div class="card card-body">
           <div class="table-responsive">
             <table class="table search-table align-middle text-nowrap">
@@ -131,10 +105,10 @@
                     </div>
                   </div>
                 </th>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Location</th>
-                <th>Phone</th>
+                <th>Campaign Name</th>
+                <th>Vendor Type</th>
+                <th>Expiry Date</th>
+             
                 <th>Action</th>
               </thead>
               <tbody>
@@ -154,26 +128,27 @@
                         width="35" />
                       <div class="ms-3">
                         <div class="user-meta-info">
-                          <h6 class="user-name mb-0" data-name="Emma Adams">Emma Adams</h6>
-                          <span class="user-work fs-3" data-occupation="Web Developer">Web Developer</span>
+                          <h6 class="user-name mb-0" data-name="Emma Adams">Black Friday is here</h6>
+                          <span class="user-work fs-3" data-occupation="Web Developer">Discount on Electronics</span>
                         </div>
                       </div>
                     </div>
                   </td>
                   <td>
-                    <span class="usr-email-addr" data-email="adams@mail.com">adams@mail.com</span>
+                    <span class="usr-email-addr" data-email="adams@mail.com">Vendor 1</span>
                   </td>
                   <td>
-                    <span class="usr-location" data-location="Boston, USA">Boston, USA</span>
+                    <span class="usr-location" data-location="Boston, USA"> 13:45:22 on 28 Feb 2024</span>
                   </td>
-                  <td>
-                    <span class="usr-ph-no" data-phone="+1 (070) 123-4567">+91 (070) 123-4567</span>
-                  </td>
+                  
                   <td>
                     <div class="action-btn">
-                      <a href="javascript:void(0)" class="text-info edit">
-                        <i class="ti ti-eye fs-5"></i>
-                      </a>
+
+                    <a href="javascript:void(0)"  data-bs-toggle="modal" data-bs-target="#samedata-modal1" data-bs-whatever="@mdo" class="text-info edit">
+                      <i class="ti ti-eye fs-5"></i>
+                    </a>
+
+
                       <a href="javascript:void(0)" class="text-dark delete ms-2">
                         <i class="ti ti-trash fs-5"></i>
                       </a>
@@ -197,24 +172,21 @@
                         width="35" />
                       <div class="ms-3">
                         <div class="user-meta-info">
-                          <h6 class="user-name mb-0" data-name="Olivia Allen">Olivia Allen</h6>
-                          <span class="user-work fs-3" data-occupation="Web Designer">Web Designer</span>
+                          <h6 class="user-name mb-0" data-name="Olivia Allen">Great CLoth Festival</h6>
+                          <span class="user-work fs-3" data-occupation="Web Designer">Cloth Sale</span>
                         </div>
                       </div>
                     </div>
                   </td>
                   <td>
-                    <span class="usr-email-addr" data-email="allen@mail.com">allen@mail.com</span>
+                    <span class="usr-email-addr" data-email="allen@mail.com">Vendor2</span>
                   </td>
                   <td>
-                    <span class="usr-location" data-location="Sydney, Australia">Sydney, Australia</span>
+                    <span class="usr-location" data-location="Sydney, Australia"> 13:45:22 on 28 Feb 2024</span>
                   </td>
-                  <td>
-                    <span class="usr-ph-no" data-phone="+91 (125) 450-1500">+91 (125) 450-1500</span>
-                  </td>
-                  <td>
+                 <td>
                     <div class="action-btn">
-                      <a href="javascript:void(0)" class="text-info edit">
+                      <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#samedata-modal1" data-bs-whatever="@mdo"  class="text-info edit">
                         <i class="ti ti-eye fs-5"></i>
                       </a>
                       <a href="javascript:void(0)" class="text-dark delete ms-2">
@@ -230,12 +202,82 @@
         </div>
       </div>
     </div>
+    </div>
   </div>
+
+ 
+  
+
+        <div class="modal fade" id="samedata-modal1" tabindex="-1" aria-labelledby="exampleModalLabel1">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header d-flex align-items-center">
+                <h4 class="modal-title" id="exampleModalLabel1">
+                  Add Campaign
+                </h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="col-12">
+                 
+                      <form>
+                        <div class="row">
+                          <div class="col-6">
+                            <div class="form-group">
+                              <input class="form-control" type="text" placeholder="Text Here..."></input>
+                              <small id="textHelp" class="form-text text-muted">Campaign Name</small>
+                          </div>
+                          </div>
+                          <div class="col-6">
+                            <div class="form-group">
+                              <input class="form-control" type="file" ></input>
+                              <small id="textHelp" class="form-text text-muted">Campaign Image</small>
+                          </div>
+                          </div>
+                          <div class="col-6">
+                            <div class="form-group">
+                              <select class="form-select"
+                              aria-label="Default select example">
+                              <option selected>Vendor1</option>
+                              <option value="1">Vendor2</option>
+      
+                          </select>
+                              <small id="textHelp" class="form-text text-muted">Vendor Type</small>
+                          </div>
+                          </div>
+                          <div class="col-6">
+                            <div class="form-group">
+                              <input class="form-control" type="date" ></input>
+                              <small id="textHelp" class="form-text text-muted">Expiry Date</small>
+                          </div>
+                          </div>
+                          <div class="col-12 mt-4">
+                            <div class="form-group">
+                              <textarea class="form-control" rows="3" width="100" placeholder="Text Here..."></textarea>
+                              <small id="textHelp" class="form-text text-muted">Description</small>
+                          </div>
+                          </div>
+                        </div>
+                        
+                    </form>
+                   
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn bg-danger-subtle text-danger font-medium"
+                  data-bs-dismiss="modal">
+                  Close
+                </button>
+                <button type="button" class="btn btn-success">
+              Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.modal -->
+
+
       </x-app-layout>
 
-      <script src="../assets/libs/fullcalendar/index.global.min.js"></script>
-      <script src="../assets/js/apps/contact.js"></script>
 
-      <script src="../assets/libs/ckeditor/ckeditor.js"></script>
-      <script src="../assets/libs/ckeditor/samples/js/sample.js"></script>
-      <script src="../assets/js/plugins/ckeditor-init.js"></script>
