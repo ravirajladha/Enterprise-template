@@ -50,6 +50,7 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/analysis', [ManufacturingController::class, 'analysis']);
     Route::get('/operations', [ManufacturingController::class, 'operations']);
+    Route::get('/bill_of_material', [ManufacturingController::class, 'bill_of_material']);
 
     //to be started when the pages will be created
     Route::get('/transactions', [RetailController::class, 'transactions']);

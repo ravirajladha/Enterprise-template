@@ -14,4 +14,8 @@ class ManufacturingController extends Controller
     {
         return view('manufacturing.shop_floor_management');
     }
+    public function bill_of_material()
+    {
+        return view('manufacturing.bill_of_material');
+    }
 }
