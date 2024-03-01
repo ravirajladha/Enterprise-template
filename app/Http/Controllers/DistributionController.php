@@ -10,4 +10,12 @@ class DistributionController extends Controller
     {
         return view('distribution.analysis');
     }
+    public function transaction()
+    {
+        return view('distribution.transaction');
+    }
+    public function mega_transaction()
+    {
+        return view('distribution.mega_transaction');
+    }
 }

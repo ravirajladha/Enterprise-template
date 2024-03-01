@@ -203,19 +203,20 @@
                         <div class="task-bottom">
                           <div class="tb-section-1">
                             <span class="hstack gap-2 fs-2" data-item-date="11:45 AM February 29th, 2024"><i
-                                class="ti ti-calendar fs-5"></i> 11:45 AM February 29th, 202</span>
+                                class="ti ti-calendar fs-5"></i> 11:45 AM February 29th, 2024</span>
                           </div>
                           
                         </div>
                       </div>
                     </div>
                   </div>
+                  
                   <div data-draggable="true" class="card img-task">
                     <div class="card-body">
                       <div class="task-header">
                         <div class="">
-                          <h4 class="" data-item-title="Lets do some task on pd">
-                            Lets do some task on pd</h4>
+                          <h4 class="" data-item-title="Labelling">
+                            Labelling</h4>
                         </div>
                         <div class="dropdown">
                           <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1"
@@ -230,29 +231,33 @@
                           </div>
                         </div>
                       </div>
+
                       <div class="task-content">
                         <p class="mb-0"
-                          data-item-text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, o eiusmod tempor incid.">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, o eiusmod tempor incid.
+                          data-item-text="LBL-110-525-414 &#10; Labelling">
+                          LBL-110-525-414&#10; Labelling Station
                         </p>
                       </div>
+
                       <div class="task-body">
                         <div class="task-bottom">
                           <div class="tb-section-1">
-                            <span class="hstack gap-2 fs-2" data-item-date="24 July"><i
-                                class="ti ti-calendar fs-5"></i> 24 July </span>
+                            <span class="hstack gap-2 fs-2" data-item-date="12:20 PM February 29th, 2024"><i
+                                class="ti ti-calendar fs-5"></i> 12:20 PM February 29th, 2024</span>
                           </div>
-                       
                         </div>
                       </div>
                     </div>
                   </div>
+                  
+
                   <div data-draggable="true" class="card img-task">
                     <div class="card-body">
+
                       <div class="task-header">
                         <div class="">
-                          <h4 class="" data-item-title="Do some projects on React Native with Flutter">
-                            Do some projects on React Native with Flutter</h4>
+                          <h4 class="" data-item-title="Sewing_Button">
+                            Sewing in Buttons</h4>
                         </div>
                         <div class="dropdown">
                           <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1"
@@ -267,18 +272,25 @@
                           </div>
                         </div>
                       </div>
+
+                      <div class="task-content">
+                        <p class="mb-0"
+                          data-item-text="SEW-110-525-414 &#10; Sewing">
+                          SWB-157-748-153&#10; Sewing Button Station
+                        </p>
+                      </div>
+
                       <div class="task-body">
                         <div class="task-bottom">
                           <div class="tb-section-1">
-                            <span class="hstack gap-2 fs-2" data-item-date="24 July"><i
-                                class="ti ti-calendar fs-5"></i> 24 July </span>
-                          </div>
-                          <div class="tb-section-2">
-                            <span class="badge text-bg-primary fs-1">Mobile</span>
+                            <span class="hstack gap-2 fs-2" data-item-date="9:25 AM December 12th, 2023"><i
+                                class="ti ti-calendar fs-5"></i> 9:25 AM December 12th, 2023</span>
                           </div>
                         </div>
                       </div>
                     </div>
+
+                    
                   </div>
                 </div>
               </div>
@@ -301,13 +313,15 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="connect-sorting-content" data-sortable="true">
                   <div data-draggable="true" class="card">
                     <div class="card-body">
+
                       <div class="task-header">
                         <div class="">
-                          <h4 class="" data-item-title="Design navigation changes">
-                            Design navigation changes</h4>
+                          <h4 class="" data-item-title="Sewing">
+                            Sewing</h4>
                         </div>
                         <div class="dropdown">
                           <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1"
@@ -322,25 +336,36 @@
                           </div>
                         </div>
                       </div>
+
+                      <div class="task-content">
+                        <p class="mb-0"
+                          data-item-text="SEW-110-525-414 &#10; Sewing">
+                          SEW-150-785-414&#10; Sewing Station
+                        </p>
+                      </div>
+
                       <div class="task-body">
                         <div class="task-bottom">
                           <div class="tb-section-1">
-                            <span class="hstack gap-2 fs-2" data-item-date="24 July"><i
-                                class="ti ti-calendar fs-5"></i> 24 July </span>
-                          </div>
-                          <div class="tb-section-2">
-                            <span class="badge text-bg-primary fs-1">Mobile</span>
+                            <span class="hstack gap-2 fs-2" data-item-date="05:45 PM November 29th, 2023"><i
+                                class="ti ti-calendar fs-5"></i> 05:45 PM November 29th, 2023</span>
                           </div>
                         </div>
                       </div>
+
+
                     </div>
                   </div>
+
+
                   <div data-draggable="true" class="card img-task">
                     <div class="card-body">
+
+
                       <div class="task-header">
                         <div class="">
-                          <h4 class="" data-item-title="Battle with fire">
-                            Battle with fire</h4>
+                          <h4 class="" data-item-title="Cutting">
+                            Cutting</h4>
                         </div>
                         <div class="dropdown">
                           <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1"
@@ -355,29 +380,38 @@
                           </div>
                         </div>
                       </div>
-                      <div class="task-content p-0">
-                        <img src="../assets/images/backgrounds/kanban-img-2.jpg" class="img-fluid"
-                          alt="scrumboard">
+
+
+                      <div class="task-content">
+                        <p class="mb-0"
+                          data-item-text="SEW-110-525-414 &#10; Sewing">
+                          CUT-780-805-421&#10; Cutting Station
+                        </p>
                       </div>
+
+
                       <div class="task-body">
                         <div class="task-bottom">
                           <div class="tb-section-1">
-                            <span class="hstack gap-2 fs-2" data-item-date="24 July"><i
-                                class="ti ti-calendar fs-5"></i> 24 July </span>
-                          </div>
-                          <div class="tb-section-2">
-                            <span class="badge text-bg-success fs-1">Design</span>
+                            <span class="hstack gap-2 fs-2" data-item-date="03:22 PM November 12th, 2023"><i
+                                class="ti ti-calendar fs-5"></i> 03:22 PM November 12th, 2023</span>
                           </div>
                         </div>
                       </div>
+
+
                     </div>
                   </div>
+
+
                   <div data-draggable="true" class="card">
                     <div class="card-body">
+
+
                       <div class="task-header">
                         <div class="">
-                          <h4 class="" data-item-title="First design concept">
-                            First design concept</h4>
+                          <h4 class="" data-item-title="Digital pattern mapping">
+                            Digital pattern mapping</h4>
                         </div>
                         <div class="dropdown">
                           <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1"
@@ -392,22 +426,32 @@
                           </div>
                         </div>
                       </div>
+
+
+                      <div class="task-content">
+                        <p class="mb-0"
+                          data-item-text="SEW-110-525-414 &#10; Sewing">
+                          DPM-320-369-953&#10; Pattern Station
+                        </p>
+                      </div>
+
                       <div class="task-body">
                         <div class="task-bottom">
                           <div class="tb-section-1">
-                            <span class="hstack gap-2 fs-2" data-item-date="24 July"><i
-                                class="ti ti-calendar fs-5"></i> 24 July </span>
-                          </div>
-                          <div class="tb-section-2">
-                            <span class="badge text-bg-primary fs-1">Mobile</span>
+                            <span class="hstack gap-2 fs-2" data-item-date="04:52 PM October 10th, 2023"><i
+                                class="ti ti-calendar fs-5"></i> 04:52 PM October 10th, 2023</span>
                           </div>
                         </div>
                       </div>
+
+
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+
+
             <div data-item="item-pending" class="task-list-container" data-action="sorting">
               <div class="connect-sorting connect-sorting-pending">
                 <div class="task-container-header">
@@ -426,13 +470,17 @@
                     </div>
                   </div>
                 </div>
+
+
                 <div class="connect-sorting-content" data-sortable="true">
                   <div data-draggable="true" class="card img-task">
                     <div class="card-body">
+
+
                       <div class="task-header">
                         <div class="">
-                          <h4 class="" data-item-title="Persona development">
-                            Persona development</h4>
+                          <h4 class="" data-item-title="Weaving Fabric">
+                            Weaving Fabric</h4>
                         </div>
                         <div class="dropdown">
                           <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1"
@@ -447,33 +495,36 @@
                           </div>
                         </div>
                       </div>
+
+
                       <div class="task-content">
                         <p class="mb-0"
-                          data-item-text="Create user personas based on the research data to represent different user groups and their characteristics, gols, and behaviors..">
-                          Create user personas based on the research data to represent different user groups and
-                          their
-                          characteristics, gols, and behaviors..
+                          data-item-text="SEW-110-525-414 &#10; Weaving">
+                          WEAV-582-789-159&#10; Weaving Station
                         </p>
                       </div>
+
+
                       <div class="task-body">
                         <div class="task-bottom">
                           <div class="tb-section-1">
-                            <span class="hstack gap-2 fs-2" data-item-date="24 July"><i
-                                class="ti ti-calendar fs-5"></i> 24 July </span>
-                          </div>
-                          <div class="tb-section-2">
-                            <span class="badge text-bg-warning fs-1">UX stage</span>
+                            <span class="hstack gap-2 fs-2" data-item-date="07:52 AM September 7th, 2023"><i
+                                class="ti ti-calendar fs-5"></i> 07:52 AM September 7th, 2023</span>
                           </div>
                         </div>
                       </div>
+
+
                     </div>
                   </div>
                   <div data-draggable="true" class="card img-task">
                     <div class="card-body">
+
+
                       <div class="task-header">
                         <div class="">
-                          <h4 class="" data-item-title="Redesign overview">
-                            Redesign overview</h4>
+                          <h4 class="" data-item-title="Digital pattern mapping">
+                            Map Labelling</h4>
                         </div>
                         <div class="dropdown">
                           <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1"
@@ -488,25 +539,33 @@
                           </div>
                         </div>
                       </div>
-                      <div class="task-content p-0">
-                        <img src="../assets/images/backgrounds/my-card.jpg" class="img-fluid" alt="scrumboard">
+
+
+                      <div class="task-content">
+                        <p class="mb-0"
+                          data-item-text="SEW-110-525-414 &#10; Map Labelling">
+                          MAPL-756-954-857&#10; Mapping Station
+                        </p>
                       </div>
+
+
                       <div class="task-body">
                         <div class="task-bottom">
                           <div class="tb-section-1">
-                            <span class="hstack gap-2 fs-2" data-item-date="24 July"><i
-                                class="ti ti-calendar fs-5"></i> 24 July </span>
-                          </div>
-                          <div class="tb-section-2">
-                            <span class="badge text-bg-success fs-1">Design</span>
+                            <span class="hstack gap-2 fs-2" data-item-date="11:11 AM August 15th, 2023"><i
+                                class="ti ti-calendar fs-5"></i> 11:11 AM August 15th, 2023</span>
                           </div>
                         </div>
                       </div>
+
+
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            
+            
             <div data-item="item-pending" class="task-list-container" data-action="sorting">
               <div class="connect-sorting connect-sorting-done">
                 <div class="task-container-header">
@@ -528,10 +587,12 @@
                 <div class="connect-sorting-content" data-sortable="true">
                   <div data-draggable="true" class="card img-task">
                     <div class="card-body">
+
+
                       <div class="task-header">
                         <div class="">
-                          <h4 class="" data-item-title="Usability testing">
-                            Usability testing</h4>
+                          <h4 class="" data-item-title="Weaving Fabric">
+                            Labelling</h4>
                         </div>
                         <div class="dropdown">
                           <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1"
@@ -546,126 +607,159 @@
                           </div>
                         </div>
                       </div>
-                      <div class="task-content p-0">
-                        <img src="../assets/images/backgrounds/weatherbg.jpg" class="img-fluid" alt="scrumboard">
-                      </div>
-                      <div class="task-body">
-                        <div class="task-bottom">
-                          <div class="tb-section-1">
-                            <span class="hstack gap-2 fs-2" data-item-date="24 July"><i
-                                class="ti ti-calendar fs-5"></i> 24 July </span>
-                          </div>
-                          <div class="tb-section-2">
-                            <span class="badge text-bg-info fs-1">Research</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div data-draggable="true" class="card">
-                    <div class="card-body">
-                      <div class="task-header">
-                        <div class="">
-                          <h4 class="" data-item-title="Introduce new navigation">
-                            Introduce new navigation</h4>
-                        </div>
-                        <div class="dropdown">
-                          <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <i class="ti ti-dots-vertical text-dark"></i>
-                          </a>
-                          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink-1">
-                            <a class="dropdown-item kanban-item-edit cursor-pointer d-flex align-items-center gap-1"
-                              href="javascript:void(0);"><i class="ti ti-pencil fs-5"></i>Edit</a>
-                            <a class="dropdown-item kanban-item-delete cursor-pointer d-flex align-items-center gap-1"
-                              href="javascript:void(0);"><i class="ti ti-trash fs-5"></i>Delete</a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="task-body">
-                        <div class="task-bottom">
-                          <div class="tb-section-1">
-                            <span class="hstack gap-2 fs-2" data-item-date="24 July"><i
-                                class="ti ti-calendar fs-5"></i> 24 July </span>
-                          </div>
-                          <div class="tb-section-2">
-                            <span class="badge text-bg-danger fs-1">Data science</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div data-draggable="true" class="card">
-                    <div class="card-body">
-                      <div class="task-header">
-                        <div class="">
-                          <h4 class="" data-item-title="Branding visual identity">
-                            Branding visual identity</h4>
-                        </div>
-                        <div class="dropdown">
-                          <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <i class="ti ti-dots-vertical text-dark"></i>
-                          </a>
-                          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink-1">
-                            <a class="dropdown-item kanban-item-edit cursor-pointer d-flex align-items-center gap-1"
-                              href="javascript:void(0);"><i class="ti ti-pencil fs-5"></i>Edit</a>
-                            <a class="dropdown-item kanban-item-delete cursor-pointer d-flex align-items-center gap-1"
-                              href="javascript:void(0);"><i class="ti ti-trash fs-5"></i>Delete</a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="task-body">
-                        <div class="task-bottom">
-                          <div class="tb-section-1">
-                            <span class="hstack gap-2 fs-2" data-item-date="24 July"><i
-                                class="ti ti-calendar fs-5"></i> 24 July </span>
-                          </div>
-                          <div class="tb-section-2">
-                            <span class="badge text-bg-primary fs-1">Branding</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div data-draggable="true" class="card">
-                    <div class="card-body">
-                      <div class="task-header">
-                        <div class="">
-                          <h4 class="" data-item-title="Competitor research">
-                            Competitor research</h4>
-                        </div>
-                        <div class="dropdown">
-                          <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <i class="ti ti-dots-vertical text-dark"></i>
-                          </a>
-                          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink-1">
-                            <a class="dropdown-item kanban-item-edit cursor-pointer d-flex align-items-center gap-1"
-                              href="javascript:void(0);"><i class="ti ti-pencil fs-5"></i>Edit</a>
-                            <a class="dropdown-item kanban-item-delete cursor-pointer d-flex align-items-center gap-1"
-                              href="javascript:void(0);"><i class="ti ti-trash fs-5"></i>Delete</a>
-                          </div>
-                        </div>
-                      </div>
+
+
                       <div class="task-content">
                         <p class="mb-0"
-                          data-item-text="research competitors and identify weakness and strengths each of them. comparing their product features, quelity...">
-                          research competitors and identify weakness and strengths each of them. comparing their
-                          product features, quelity...
+                          data-item-text="SEW-110-525-414 &#10; Map Labelling">
+                          LBL-757-151-353&#10; Labelling Station
                         </p>
                       </div>
+
+
                       <div class="task-body">
                         <div class="task-bottom">
                           <div class="tb-section-1">
-                            <span class="hstack gap-2 fs-2" data-item-date="24 July"><i
-                                class="ti ti-calendar fs-5"></i> 24 July </span>
-                          </div>
-                          <div class="tb-section-2">
-                            <span class="badge text-bg-warning fs-1">UX stages</span>
+                            <span class="hstack gap-2 fs-2" data-item-date="05:25 AM July 22nd, 2023"><i
+                                class="ti ti-calendar fs-5"></i> 05:25 AM July 22nd, 2023</span>
                           </div>
                         </div>
                       </div>
+
+
+                    </div>
+                  </div>
+                  <div data-draggable="true" class="card">
+                    <div class="card-body">
+
+
+                      <div class="task-header">
+                        <div class="">
+                          <h4 class="" data-item-title="Weaving Fabric">
+                            Sewing</h4>
+                        </div>
+                        <div class="dropdown">
+                          <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <i class="ti ti-dots-vertical text-dark"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink-1">
+                            <a class="dropdown-item kanban-item-edit cursor-pointer d-flex align-items-center gap-1"
+                              href="javascript:void(0);"><i class="ti ti-pencil fs-5"></i>Edit</a>
+                            <a class="dropdown-item kanban-item-delete cursor-pointer d-flex align-items-center gap-1"
+                              href="javascript:void(0);"><i class="ti ti-trash fs-5"></i>Delete</a>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="task-content">
+                        <p class="mb-0"
+                          data-item-text="SEW-110-525-414 &#10; Map Labelling">
+                          SEW-956-754-153&#10; Sewing Station
+                        </p>
+                      </div>
+
+
+                      <div class="task-body">
+                        <div class="task-bottom">
+                          <div class="tb-section-1">
+                            <span class="hstack gap-2 fs-2" data-item-date="02:19 PM June 27th, 2023"><i
+                                class="ti ti-calendar fs-5"></i> 02:19 PM June 27th, 2023</span>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                  <div data-draggable="true" class="card">
+                    <div class="card-body">
+
+
+                      <div class="task-header">
+                        <div class="">
+                          <h4 class="" data-item-title="Weaving Fabric">
+                            Cutting</h4>
+                        </div>
+                        <div class="dropdown">
+                          <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <i class="ti ti-dots-vertical text-dark"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink-1">
+                            <a class="dropdown-item kanban-item-edit cursor-pointer d-flex align-items-center gap-1"
+                              href="javascript:void(0);"><i class="ti ti-pencil fs-5"></i>Edit</a>
+                            <a class="dropdown-item kanban-item-delete cursor-pointer d-flex align-items-center gap-1"
+                              href="javascript:void(0);"><i class="ti ti-trash fs-5"></i>Delete</a>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="task-content">
+                        <p class="mb-0"
+                          data-item-text="SEW-110-525-414 &#10; Map Labelling">
+                          CUT-152-352-758&#10; Cutting Station
+                        </p>
+                      </div>
+
+
+                      <div class="task-body">
+                        <div class="task-bottom">
+                          <div class="tb-section-1">
+                            <span class="hstack gap-2 fs-2" data-item-date="07:55 PM May 19th, 2023"><i
+                                class="ti ti-calendar fs-5"></i> 07:55 PM May 19th, 2023</span>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+
+                  
+                  <div data-draggable="true" class="card">
+                    <div class="card-body">
+
+
+                      <div class="task-header">
+                        <div class="">
+                          <h4 class="" data-item-title="Packing Fabric">
+                            Packing</h4>
+                        </div>
+                        <div class="dropdown">
+                          <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <i class="ti ti-dots-vertical text-dark"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink-1">
+                            <a class="dropdown-item kanban-item-edit cursor-pointer d-flex align-items-center gap-1"
+                              href="javascript:void(0);"><i class="ti ti-pencil fs-5"></i>Edit</a>
+                            <a class="dropdown-item kanban-item-delete cursor-pointer d-flex align-items-center gap-1"
+                              href="javascript:void(0);"><i class="ti ti-trash fs-5"></i>Delete</a>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="task-content">
+                        <p class="mb-0"
+                          data-item-text="SEW-110-525-414 &#10; Map Labelling">
+                          PKG-257-954-853&#10; Packing Station
+                        </p>
+                      </div>
+
+
+                      <div class="task-body">
+                        <div class="task-bottom">
+                          <div class="tb-section-1">
+                            <span class="hstack gap-2 fs-2" data-item-date="04:23 PM April 04th, 2023"><i
+                                class="ti ti-calendar fs-5"></i> 04:23 PM April 04th, 2023</span>
+                          </div>
+                        </div>
+                      </div>
+                      
                     </div>
                   </div>
                 </div>

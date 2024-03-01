@@ -51,14 +51,25 @@ Route::middleware('auth')->group(function () {
     Route::get('/analysis', [ManufacturingController::class, 'analysis']);
     Route::get('/operations', [ManufacturingController::class, 'operations']);
     Route::get('/bill_of_material', [ManufacturingController::class, 'bill_of_material']);
+    Route::get('/item_variants', [ManufacturingController::class, 'item_variants']);
+    Route::get('/item_balance', [ManufacturingController::class, 'item_balance']);
+    Route::get('/batched_inventory', [ManufacturingController::class, 'batched_inventory']);
+    Route::get('/add_batched_inventory', [ManufacturingController::class, 'add_batched_inventory']);
+    Route::get('/serialized_inventory', [ManufacturingController::class, 'serialized_inventory']);
+    Route::get('/capacity_planning', [ManufacturingController::class, 'capacity_planning']);
+    Route::get('/product_variants', [ManufacturingController::class, 'product_variants']);
+    Route::get('/product_balance', [ManufacturingController::class, 'product_balance']);
+    Route::get('/subadmin', [ManufacturingController::class, 'subadmin']);
 
     //to be started when the pages will be created
     Route::get('/transactions', [RetailController::class, 'transactions']);
     
     Route::get('/warehousetree', [RetailController::class, 'warehousetree']);
     Route::get('/stocksummary', [RetailController::class, 'stocksummary']);
+    Route::get('/stock', [RetailController::class, 'stock']);
     
-    Route::get('/transactions', [DistributionController::class, 'transactions']);
+    Route::get('/transaction', [DistributionController::class, 'transaction']);
+    Route::get('/mega_transaction', [DistributionController::class, 'mega_transaction']);
 
 
   

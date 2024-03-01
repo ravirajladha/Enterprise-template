@@ -188,6 +188,107 @@
             <span class="hide-menu">Bill of material</span>
           </a>
         </li>
+
+        <li class="sidebar-item">
+          <a href="/product_variants" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Product Variants</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="/product_balance" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Product Stocks</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="/item_variants" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Material Stocks</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="/item_variants" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Item Variants</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="/item_balance" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Item Stocks</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="/batched_inventory" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Batched Inventory</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="/add_batched_inventory" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Add Batched Inventory</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="/serialized_inventory" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Serialized Inventory</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="/capacity_planning" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Capacity Planning</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="/subadmin" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Subadmin</span>
+          </a>
+        </li>
        
       </ul> </li>
     <li class="sidebar-item">
@@ -231,7 +332,17 @@
             >
               <i class="ti ti-circle"></i>
             </div>
-            <span class="hide-menu">Stock Summary</span>
+            <span class="hide-menu">Stock Summary(tree)</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="/stock" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Stock </span>
           </a>
         </li>
        
@@ -261,13 +372,23 @@
         </li>
         
         <li class="sidebar-item">
-          <a href="/maintenance_schedule" class="sidebar-link">
+          <a href="/transaction" class="sidebar-link">
             <div
               class="round-16 d-flex align-items-center justify-content-center"
             >
               <i class="ti ti-circle"></i>
             </div>
-            <span class="hide-menu">maintenance_schedule</span>
+            <span class="hide-menu">transaction</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="/mega_transaction" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">mega transaction</span>
           </a>
         </li>
       

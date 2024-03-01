@@ -18,4 +18,8 @@ class RetailController extends Controller
     {
         return view('retail.stocksummary');
     }
+    public function stock()
+    {
+        return view('retail.stock');
+    }
 }
