@@ -1,270 +1,22 @@
 <x-app-layout>
     <link rel="stylesheet" href="../assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css">
     <link rel="stylesheet" href="../assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css">
-    {{-- Old Wrapper --}}
-      {{-- <div class="body-wrapper">
-          <div class="container-fluid">
-              <div class="card bg-info-subtle shadow-none position-relative overflow-hidden mb-4">
-                  <div class="card-body px-4 py-3">
-                      <div class="row align-items-center">
-                          <div class="col-9">
-                              <h4 class="fw-semibold mb-8">Shop</h4>
-                              <nav aria-label="breadcrumb">
-                                  <ol class="breadcrumb">
-                                      <li class="breadcrumb-item">
-                                          <a class="text-muted text-decoration-none" href="../main/index.html">Home</a>
-                                      </li>
-                                      <li class="breadcrumb-item" aria-current="page">Shop</li>
-                                  </ol>
-                              </nav>
-                          </div>
-                          <div class="col-3">
-                              <div class="text-center mb-n5">
-                                  <img src="../assets/images/breadcrumb/ChatBc.png" alt=""
-                                      class="img-fluid mb-n4" />
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-  
-              <div class="card position-relative overflow-hidden">
-                  <div class="shop-part d-flex w-100">
-                      <div class="shop-filters flex-shrink-0 border-end d-none d-lg-block">
-                          <ul class="list-group pt-2 border-bottom rounded-0">
-                              <h6 class="my-3 mx-4 fw-semibold">Filter by Category</h6>
-                              <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                  <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                      href="javascript:void(0)"><i class="ti ti-circles fs-5"></i>All
-                                  </a>
-                              </li>
-                              <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                  <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                      href="javascript:void(0)"><i class="ti ti-hanger fs-5"></i>Fashion
-                                  </a>
-                              </li>
-                              <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                  <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                      href="javascript:void(0)"><i class="ti ti-notebook fs-5"></i></i>Books
-                                  </a>
-                              </li>
-                              <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                  <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                      href="javascript:void(0)"><i class="ti ti-mood-smile fs-5"></i>Toys
-                                  </a>
-                              </li>
-                              <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                  <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                      href="javascript:void(0)"><i class="ti ti-device-laptop fs-5"></i>Electronics
-                                  </a>
-                              </li>
-                          </ul>
-                          <ul class="list-group pt-2 border-bottom rounded-0">
-                              <h6 class="my-3 mx-4 fw-semibold">Sort By</h6>
-                              <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                  <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                      href="javascript:void(0)"><i class="ti ti-ad-2 fs-5"></i>Newest
-                                  </a>
-                              </li>
-                              <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                  <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                      href="javascript:void(0)"><i class="ti ti-sort-ascending-2 fs-5"></i>Price: High-Low
-                                  </a>
-                              </li>
-                              <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                  <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                      href="javascript:void(0)"><i class="ti ti-sort-descending-2 fs-5"></i></i>Price:
-                                      Low-High
-                                  </a>
-                              </li>
-                              <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                  <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                      href="javascript:void(0)"><i class="ti ti-ad-2 fs-5"></i>Discounted
-                                  </a>
-                              </li>
-                          </ul>
-                          <div class="by-gender border-bottom rounded-0">
-                              <h6 class="mt-4 mb-3 mx-4 fw-semibold">By Gender</h6>
-                              <div class="pb-4 px-4">
-                                  <div class="form-check py-2 mb-0">
-                                      <input class="form-check-input p-2" type="radio" name="exampleRadios"
-                                          id="exampleRadios1" value="option1" checked>
-                                      <label class="form-check-label d-flex align-items-center ps-2" for="exampleRadios1">
-                                          All
-                                      </label>
-                                  </div>
-                                  <div class="form-check py-2 mb-0">
-                                      <input class="form-check-input p-2" type="radio" name="exampleRadios"
-                                          id="exampleRadios2" value="option1">
-                                      <label class="form-check-label d-flex align-items-center ps-2" for="exampleRadios2">
-                                          Men
-                                      </label>
-                                  </div>
-                                  <div class="form-check py-2 mb-0">
-                                      <input class="form-check-input p-2" type="radio" name="exampleRadios"
-                                          id="exampleRadios3" value="option1">
-                                      <label class="form-check-label d-flex align-items-center ps-2" for="exampleRadios3">
-                                          Women
-                                      </label>
-                                  </div>
-                                  <div class="form-check py-2 mb-0">
-                                      <input class="form-check-input p-2" type="radio" name="exampleRadios"
-                                          id="exampleRadios4" value="option1">
-                                      <label class="form-check-label d-flex align-items-center ps-2" for="exampleRadios4">
-                                          Kids
-                                      </label>
-                                  </div>
-                              </div>
-                          </div>
-  
-  
-                          <div class="p-4">
-                              <a href="javascript:void(0)" class="btn btn-primary w-100">Reset Filters</a>
-                          </div>
-                      </div>
-  
-  
-                      <div class="card-body p-4 pb-0">
-                          <div class="d-flex justify-content-between align-items-center mb-4">
-                              <a class="btn btn-primary d-lg-none d-flex" data-bs-toggle="offcanvas"
-                                  href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                                  <i class="ti ti-menu-2 fs-6"></i>
-                              </a>
-                              <h5 class="fs-5 fw-semibold mb-0 d-none d-lg-block">Products</h5>
-                              <form class="position-relative">
-                                  <input type="text" class="form-control search-chat py-2 ps-5" id="text-srh"
-                                      placeholder="Search Product">
-                                  <i
-                                      class="ti ti-search position-absolute top-50 start-0 translate-middle-y fs-6 text-dark ms-3"></i>
-                              </form>
-                          </div>
-                          <div class="row">
-  
-                              <div class="col-sm-6 col-xl-4">
-                                  <div class="card hover-img overflow-hidden rounded-2">
-                                      <div class="position-relative">
-                                          <a href="javascript:void(0)"><img src="../assets/images/products/s2.jpg"
-                                                  class="card-img-top rounded-0" alt="..."></a>
-                                          <a href="javascript:void(0)"
-                                              class="text-bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3"
-                                              data-bs-toggle="tooltip" data-bs-placement="top"
-                                              data-bs-title="Add To Cart"><i class="ti ti-basket fs-4"></i></a>
-                                      </div>
-                                      <div class="card-body pt-3 p-4">
-                                          <h6 class="fw-semibold fs-4">Psalms Book for Growth</h6>
-                                          <div class="d-flex align-items-center justify-content-between">
-                                              <h6 class="fw-semibold fs-4 mb-0">$89 <span
-                                                      class="ms-2 fw-normal text-muted fs-3"><del>$99</del></span></h6>
-                                              <ul class="list-unstyled d-flex align-items-center mb-0">
-                                                  <li><a class="me-1" href="javascript:void(0)"><i
-                                                              class="ti ti-star text-warning"></i></a>
-                                                  </li>
-                                                  <li><a class="me-1" href="javascript:void(0)"><i
-                                                              class="ti ti-star text-warning"></i></a>
-                                                  </li>
-                                                  <li><a class="me-1" href="javascript:void(0)"><i
-                                                              class="ti ti-star text-warning"></i></a>
-                                                  </li>
-                                                  <li><a class="me-1" href="javascript:void(0)"><i
-                                                              class="ti ti-star text-warning"></i></a>
-                                                  </li>
-                                                  <li><a class="" href="javascript:void(0)"><i
-                                                              class="ti ti-star text-warning"></i></a></li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-  
-  
-                      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-                          aria-labelledby="offcanvasExampleLabel">
-                          <div class="offcanvas-body shop-filters w-100 p-0">
-                              <ul class="list-group pt-2 border-bottom rounded-0">
-                                  <h6 class="my-3 mx-4 fw-semibold">Filter by Category</h6>
-                                  <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                      <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                          href="javascript:void(0)"><i class="ti ti-circles fs-5"></i>All
-                                      </a>
-                                  </li>
-                                  <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                      <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                          href="javascript:void(0)"><i class="ti ti-hanger fs-5"></i>Fashion
-                                      </a>
-                                  </li>
-                                  <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                      <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                          href="javascript:void(0)"><i class="ti ti-notebook fs-5"></i></i>Books
-                                      </a>
-                                  </li>
-                                  <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                      <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                          href="javascript:void(0)"><i class="ti ti-mood-smile fs-5"></i>Toys
-                                      </a>
-                                  </li>
-                                  <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                      <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                          href="javascript:void(0)"><i class="ti ti-device-laptop fs-5"></i>Electronics
-                                      </a>
-                                  </li>
-                              </ul>
-                              <ul class="list-group pt-2 border-bottom rounded-0">
-                                  <h6 class="my-3 mx-4 fw-semibold">Sort By</h6>
-                                  <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                      <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                          href="javascript:void(0)"><i class="ti ti-ad-2 fs-5"></i>Newest
-                                      </a>
-                                  </li>
-                                  <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                      <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                          href="javascript:void(0)"><i class="ti ti-sort-ascending-2 fs-5"></i>Price:
-                                          High-Low
-                                      </a>
-                                  </li>
-                                  <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                      <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                          href="javascript:void(0)"><i
-                                              class="ti ti-sort-descending-2 fs-5"></i></i>Price: Low-High
-                                      </a>
-                                  </li>
-                                  <li class="list-group-item border-0 p-0 mx-4 mb-2">
-                                      <a class="d-flex align-items-center gap-2 list-group-item-action text-dark px-3 py-6 rounded-1"
-                                          href="javascript:void(0)"><i class="ti ti-ad-2 fs-5"></i>Discounted
-                                      </a>
-                                  </li>
-                              </ul>
-  
-  
-  
-                              <div class="p-4">
-                                  <a href="javascript:void(0)" class="btn btn-primary w-100">Reset Filters</a>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div> --}}
-    {{-- Old Wrapper End --}}
-  
-  
+ 
       <div class="body-wrapper">
         <div class="container-fluid">
           <div class="card bg-info-subtle shadow-none position-relative overflow-hidden mb-4">
   <div class="card-body px-4 py-3">
     <div class="row align-items-center">
       <div class="col-9">
-        <h4 class="fw-semibold mb-8">Account Setting</h4>
+        <h4 class="fw-semibold mb-8">Warranty Claim</h4>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
               <a class="text-muted text-decoration-none" href="../main/index.html"
-                >Home</a
+                >Services</a
               >
             </li>
-            <li class="breadcrumb-item" aria-current="page">Account Setting</li>
+            <li class="breadcrumb-item" aria-current="page">Warranty Claim</li>
           </ol>
         </nav>
       </div>
@@ -284,44 +36,7 @@
           <div class="card">
   
   
-            {{-- <ul class="nav nav-pills user-profile-tab" id="pills-tab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link position-relative rounded-0 active d-flex align-items-center justify-content-center bg-transparent fs-3 py-4"
-                  id="pills-account-tab" data-bs-toggle="pill" data-bs-target="#pills-account" type="button" role="tab"
-                  aria-controls="pills-account" aria-selected="true">
-                  <i class="ti ti-user-circle me-2 fs-6"></i>
-                  <span class="d-none d-md-block">Account</span>
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link position-relative rounded-0 d-flex align-items-center justify-content-center bg-transparent fs-3 py-4"
-                  id="pills-notifications-tab" data-bs-toggle="pill" data-bs-target="#pills-notifications" type="button"
-                  role="tab" aria-controls="pills-notifications" aria-selected="false">
-                  <i class="ti ti-bell me-2 fs-6"></i>
-                  <span class="d-none d-md-block">Notifications</span>
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link position-relative rounded-0 d-flex align-items-center justify-content-center bg-transparent fs-3 py-4"
-                  id="pills-bills-tab" data-bs-toggle="pill" data-bs-target="#pills-bills" type="button" role="tab"
-                  aria-controls="pills-bills" aria-selected="false">
-                  <i class="ti ti-article me-2 fs-6"></i>
-                  <span class="d-none d-md-block">Bills</span>
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link position-relative rounded-0 d-flex align-items-center justify-content-center bg-transparent fs-3 py-4"
-                  id="pills-security-tab" data-bs-toggle="pill" data-bs-target="#pills-security" type="button"
-                  role="tab" aria-controls="pills-security" aria-selected="false">
-                  <i class="ti ti-lock me-2 fs-6"></i>
-                  <span class="d-none d-md-block">Security</span>
-                </button>
-              </li>
-            </ul> --}}
+           
   
   
             <div class="card-body">
@@ -395,13 +110,7 @@
                                 <div class="mb-4">
                                   <label class="form-label fw-semibold">Date of Purchase</label>
   
-                                  {{-- <select class="form-select" aria-label="Default select example">
-                                    <option selected>India (INR)</option>
-                                    <option value="1">US Dollar ($)</option>
-                                    <option value="2">United Kingdom (Pound)</option>
-                                    <option value="3">India (INR)</option>
-                                    <option value="3">Russia (Ruble)</option>
-                                  </select> --}}
+                                
   
                                   <div class="form-group">
                                     <input type="date" class="form-control" id="exampleInputtextN"
@@ -411,11 +120,7 @@
                                 </div>
   
   
-                                {{-- <div class="mb-4">
-                                  <label for="exampleInputtext3" class="form-label fw-semibold">Phone</label>
-                                  <input type="text" class="form-control" id="exampleInputtext3"
-                                    placeholder="+91 12345 65478">
-                                </div> --}}
+                            
   
   
                                 <div class="">
@@ -428,11 +133,7 @@
   
   
                               <div class="col-12">
-                                {{-- <div class="">
-                                  <label for="exampleInputtext4" class="form-label fw-semibold">Address</label>
-                                  <input type="text" class="form-control" id="exampleInputtext4"
-                                    placeholder="814 Howard Street, 120065, India">
-                                </div> --}}
+                                
                               </div>
                               <div class="col-12">
                                 <div class="d-flex align-items-center justify-content-end mt-4 gap-3">
@@ -469,12 +170,14 @@
                             <!-- start row -->
                             <tr>
                               <th><input type="checkbox" id="selectAll"/></th>
-                              <th>Name</th>
-                              <th>Position</th>
-                              <th>Office</th>
-                              <th>Age</th>
-                              <th>Start date</th>
-                              <th>Salary</th>
+                              
+                              <th>Product ID</th>
+                              <th>Product Name</th>
+                              <th>Customer Name</th>
+                              <th>Contact Number</th>
+                              <th>Email</th>
+                              <th>Date of Purchase</th> 
+                              
                             </tr>
                             <!-- end row -->
                           </thead>
@@ -482,23 +185,23 @@
                             <!-- start row -->
                             <tr>
                               <th><input type="checkbox" id="selectAll"/></th>
-                              <td>Tiger Nixon</td>
-                              <td>System Architect</td>
-                              <td>Edinburgh</td>
-                              <td>61</td>
-                              <td>2011/04/25</td>
-                              <td>$320,800</td>
+                              <td>1297</td>
+                              <td>Laptop</td>
+                              <td>Ranit Joshi</td>
+                              <td>+919650101010</td>
+                              <td>ranitjoshi@gmail.com</td>
+                              <td>7th Dec 2023</td>
                             </tr>
                             <!-- end row -->
                             <!-- start row -->
                             <tr>
                               <th><input type="checkbox" id="selectAll"/></th>
-                              <td>Garrett Winters</td>
-                              <td>Accountant</td>
-                              <td>Tokyo</td>
-                              <td>63</td>
-                              <td>2011/07/25</td>
-                              <td>$170,750</td>
+                              <td>4197</td>
+                              <td>Toy</td>
+                              <td>Pintu Khan</td>
+                              <td>+917501010180</td>
+                              <td>pintukhan@gmail.com</td>
+                              <td>11th Feb 2024</td>
                             </tr>
                             <!-- end row -->
                            
@@ -508,12 +211,12 @@
                             <!-- start row -->
                             <tr>
                               <th><input type="checkbox" id="selectAll"/></th>
-                              <th>Name</th>
-                              <th>Position</th>
-                              <th>Office</th>
-                              <th>Age</th>
-                              <th>Start date</th>
-                              <th>Salary</th>
+                              <th>Product ID</th>
+                              <th>Product Name</th>
+                              <th>Customer Name</th>
+                              <th>Contact Number</th>
+                              <th>Email</th>
+                              <th>Date of Purchase</th> 
                             </tr>
                             <!-- end row -->
                           </tfoot>

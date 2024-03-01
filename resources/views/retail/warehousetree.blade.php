@@ -75,11 +75,11 @@
             <div class="product-tree">
                 <ul class="tree">
                     <li>
-                        <span class="toggle px-3">+</span> All Warehouses
+                        <span class="toggle px-3">+</span> Manufacturing
                         
                         <ul class="nested">
                             <li>
-                                <span class="toggle px-4 pt-3">+</span> Arena One
+                                <span class="toggle px-4 pt-3">+</span> Arena Two
                                 <ul class="nested">
                                     <li class="px-5 ">Product A<span class="quantity">₹ 0.00</span></li>
                                     <li class="px-5">Product B<span class="quantity">₹ 0.00</span></li>
@@ -97,7 +97,7 @@
                         <ul class="nested">
                             <li>
                                 <span class="toggle px-4 pt-3">+</span> Arena Two
-                                <ul class="nested px-5">
+                                <ul class="nested">
                                     <li class="px-5 ">Product A<span class="quantity">₹ 0.00</span></li>
                                     <li class="px-5">Product B<span class="quantity">₹ 0.00</span></li>
                                     <li class="px-5">Product C<span class="quantity">₹ 0.00</span></li>

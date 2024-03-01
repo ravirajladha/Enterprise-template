@@ -6,13 +6,13 @@
                 <div class="card-body px-4 py-3">
                     <div class="row align-items-center">
                         <div class="col-9">
-                            <h4 class="fw-semibold mb-8">Stock</h4>
+                            <h4 class="fw-semibold mb-8">Product Details</h4>
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item">
                                         <a class="text-muted text-decoration-none" href="../main/index.html">Retail</a>
                                     </li>
-                                    <li class="breadcrumb-item" aria-current="page">Stock</li>
+                                    <li class="breadcrumb-item" aria-current="page">Product Details/#7567/TOLPBKWL0210</li>
                                 </ol>
                             </nav>
                         </div>
@@ -28,7 +28,7 @@
 
 
             <div class="form-with-tabs">
-                <h5 class="card-title fw-semibold mb-4">Stock Table</h5>
+                <h5 class="card-title fw-semibold mb-4">Product Details Table</h5>
                 <div class="card">
                     <ul class="nav nav-pills user-profile-tab border-bottom" id="pills-tab" role="tablist">
 
@@ -252,7 +252,8 @@
                                                 placeholder="Enter average sales">
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+
+                                    {{-- <div class="col-lg-6">
                                         <div class="mb-4">
                                             <label for="exampleInputPassword1" class="form-label fw-semibold">Low
                                                 Stock Alert</label>
@@ -279,7 +280,8 @@
                                             </div>
                                             <!-- End Dinut Pie Chart -->
                                         </div>
-                                    </div>
+                                    </div> --}}
+
                                     <div class="col-12 d-flex-row">
                                         <div class="d-flex align-items-center justify-content-end gap-3 ml-auto">
                                             <button class="btn btn-primary">Submit</button>

@@ -58,7 +58,7 @@
 
                             <form class="position-relative">
                                 <input type="text" class="form-control search-chat py-2 ps-5" id="text-srh"
-                                    placeholder="Issue Number">
+                                    placeholder="Issue number">
                                 <i
                                     class="ti ti-search position-absolute top-50 start-0 translate-middle-y fs-6 text-dark ms-3"></i>
                             </form>
@@ -96,7 +96,7 @@
                                                                     <input type="text" class="form-control"
                                                                         id="exampleInputtext"
                                                                         placeholder="Enter subject name"
-                                                                        value="Tshirt size too small">
+                                                                        value="Enter subject">
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-6">
@@ -115,11 +115,11 @@
                                                                 <div class="mb-4">
                                                                     <label for="exampleInputtext1"
                                                                         class="form-label fw-semibold">Customer Email
-                                                                        id</label>
+                                                                        ID</label>
                                                                     <input type="email" class="form-control"
                                                                         id="exampleInputtext1"
                                                                         placeholder="info@modernize.com"
-                                                                        value="alex@gmail.com">
+                                                                        value="Enter email ID">
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-6">
@@ -129,8 +129,8 @@
                                                                         Name</label>
                                                                     <input type="text" class="form-control"
                                                                         id="exampleInputtext1"
-                                                                        placeholder="Customer Name"
-                                                                        value="Alex William">
+                                                                        placeholder="Enter customer name"
+                                                                        value="">
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-6">
@@ -167,7 +167,7 @@
                                                                         Name</label>
                                                                     <input type="text" class="form-control"
                                                                         id="exampleInputtext2"
-                                                                        placeholder="Maxima Studio">
+                                                                        placeholder="Enter store name">
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-6">
@@ -193,16 +193,16 @@
                                                                         class="form-label fw-semibold">Phone</label>
                                                                     <input type="text" class="form-control"
                                                                         id="exampleInputtext3"
-                                                                        placeholder="+91 12345 65478">
+                                                                        placeholder="Enter phone number">
                                                                 </div>
                                                             </div>
-                                                            <div class="col-12">
+                                                            <div class="col-lg-6">
                                                                 <div class="">
                                                                     <label for="exampleInputtext4"
                                                                         class="form-label fw-semibold">Address</label>
                                                                     <input type="text" class="form-control"
                                                                         id="exampleInputtext4"
-                                                                        placeholder="814 Howard Street, 120065, India">
+                                                                        placeholder="Enter address">
                                                                 </div>
                                                             </div>
                                                          
@@ -231,9 +231,9 @@
                                                             </div>
                                                             <div class="card-body">
                                                                 <div class="summernote">
-                                                                    <h4>Hello, Last week I have bought a Tshirt which is
+                                                                    <h4>Hello, last week I have bought a Tshirt which is
                                                                         too small. Attaching the order image.
-                                                                        Alex
+                                                                        
                                                                     </h4>
                                                                 </div>
                                                             </div>

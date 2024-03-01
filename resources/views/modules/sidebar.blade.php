@@ -116,13 +116,13 @@
           </a>
         </li>
         <li class="sidebar-item">
-          <a href="/transactions" class="sidebar-link">
+          <a href="/transaction" class="sidebar-link">
             <div
               class="round-16 d-flex align-items-center justify-content-center"
             >
               <i class="ti ti-circle"></i>
             </div>
-            <span class="hide-menu">transactions</span>
+            <span class="hide-menu">Transaction</span>
           </a>
         </li>
         <li class="sidebar-item">
@@ -335,6 +335,65 @@
             <span class="hide-menu">Stock Summary(tree)</span>
           </a>
         </li>
+        
+        
+        <li class="sidebar-item">
+          <a href="/transaction" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Mini Transaction</span>
+          </a>
+        </li>
+
+        <li class="sidebar-item">
+          <a href="/retcampaign" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Campaign</span>
+          </a>
+        </li>
+        
+        <li class="sidebar-item">
+          <a href="/customer" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Customers</span>
+          </a>
+        </li>
+
+
+        <li class="sidebar-item">
+          <a href="/customerdetails" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Customers Details</span>
+          </a>
+        </li>
+
+        <li class="sidebar-item">
+          <a href="/checkout" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Checkout</span>
+          </a>
+        </li>
+
+
         <li class="sidebar-item">
           <a href="/stock" class="sidebar-link">
             <div
@@ -343,6 +402,17 @@
               <i class="ti ti-circle"></i>
             </div>
             <span class="hide-menu">Stock </span>
+          </a>
+        </li>
+        
+        <li class="sidebar-item">
+          <a href="/productecom" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Product Ecommerce </span>
           </a>
         </li>
        
@@ -381,6 +451,8 @@
             <span class="hide-menu">transaction</span>
           </a>
         </li>
+
+
         <li class="sidebar-item">
           <a href="/mega_transaction" class="sidebar-link">
             <div
@@ -391,8 +463,155 @@
             <span class="hide-menu">mega transaction</span>
           </a>
         </li>
+
+
+        <li  i class="sidebar-item">
+          <a href="/tree" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Tree</span>
+          </a>
+        </li>
+        
+        
+        <li  i class="sidebar-item">
+          <a href="/stocksummary" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Stock</span>
+          </a>
+        </li>
+        
+        
+        <li  i class="sidebar-item">
+          <a href="/productecom" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">All Products</span>
+          </a>
+        </li>
+        
+        
+        <li  i class="sidebar-item">
+          <a href="/tree" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Products Warehouse</span>
+          </a>
+        </li>
+        
+        
+        <li  i class="sidebar-item">
+          <a href="/item_variants" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Item Variants</span>
+          </a>
+        </li>
+        
+        
+        <li  i class="sidebar-item">
+          <a href="/retcampaign" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Campaign</span>
+          </a>
+        </li>
+        
+        
+        <li  i class="sidebar-item">
+          <a href="/transaction" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Transaction</span>
+          </a>
+        </li>
+        
+        
+        <li  i class="sidebar-item">
+          <a href="/item_balance" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Item Stocks</span>
+          </a>
+        </li>
+        
+        
+        <li  i class="sidebar-item">
+          <a href="/stock" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Product Details</span>
+          </a>
+        </li>
+        
+        
+        <li  i class="sidebar-item">
+          <a href="/subadmin" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Subadmin</span>
+          </a>
+        </li>
+        
+        
+        <li  i class="sidebar-item">
+          <a href="/mega_transaction" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Mega Transaction</span>
+          </a>
+        </li>
+
+
+        <li  i class="sidebar-item">
+          <a href="/invoice" class="sidebar-link">
+            <div
+              class="round-16 d-flex align-items-center justify-content-center"
+            >
+              <i class="ti ti-circle"></i>
+            </div>
+            <span class="hide-menu">Invoices</span>
+          </a>
+        </li>
       
-      </ul> </li>
+      </ul> 
+    </li>
+
+    
       <li class="nav-small-cap">
         <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
         <span class="hide-menu">Home</span>

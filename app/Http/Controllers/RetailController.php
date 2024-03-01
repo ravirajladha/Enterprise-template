@@ -22,4 +22,24 @@ class RetailController extends Controller
     {
         return view('retail.stock');
     }
+    public function productecom()
+    {
+        return view('retail.productecom');
+    }
+    public function campaign()
+    {
+        return view('retail.campaign');
+    }
+    public function customer()
+    {
+        return view('retail.customer');
+    }
+    public function customerdetails()
+    {
+        return view('retail.customerdetails');
+    }
+    public function checkout()
+    {
+        return view('retail.checkout');
+    }
 }

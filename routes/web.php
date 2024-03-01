@@ -42,7 +42,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/invoice', [ServiceController::class, 'invoice'])->name('services.invoice');
     Route::get('/maintenance_visit', [ServiceController::class, 'maintenance_visit']);
     Route::get('/maintenance_schedule', [ServiceController::class, 'maintenance_schedule']);
-    Route::get('/transactions', [ServiceController::class, 'transactions']);
+    Route::get('/transaction', [ServiceController::class, 'transaction']);
     Route::get('/customer', [ServiceController::class, 'customer']);
     Route::get('/campaign', [ServiceController::class, 'campaign']);
     Route::get('/subscription', [ServiceController::class, 'subscription']);
@@ -67,9 +67,15 @@ Route::middleware('auth')->group(function () {
     Route::get('/warehousetree', [RetailController::class, 'warehousetree']);
     Route::get('/stocksummary', [RetailController::class, 'stocksummary']);
     Route::get('/stock', [RetailController::class, 'stock']);
+    Route::get('/productecom', [RetailController::class, 'productecom']);
+    Route::get('/retcampaign', [RetailController::class, 'campaign']);
+    Route::get('/customer', [RetailController::class, 'customer']);
+    Route::get('/customerdetails', [RetailController::class, 'customerdetails']);
+    Route::get('/checkout', [RetailController::class, 'checkout']);
     
     Route::get('/transaction', [DistributionController::class, 'transaction']);
     Route::get('/mega_transaction', [DistributionController::class, 'mega_transaction']);
+    Route::get('/tree', [DistributionController::class, 'tree']);
 
 
   

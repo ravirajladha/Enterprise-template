@@ -8,11 +8,11 @@
                 <div class="card-body px-4 py-3">
                     <div class="row align-items-center">
                         <div class="col-9">
-                            <h4 class="fw-semibold mb-8">Campaign</h4>
+                            <h4 class="fw-semibold mb-8">Retail Campaign</h4>
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item">
-                                        <a class="text-muted text-decoration-none" href="/services">Home</a>
+                                        <a class="text-muted text-decoration-none" href="/services">Retail</a>
                                     </li>
                                     <li class="breadcrumb-item" aria-current="page">Campaign</li>
                                 </ol>
@@ -37,34 +37,56 @@
                     <div class="col-12">
                         <div class="card">
                             <div class="border-bottom title-part-padding">
-                                <h4 class="card-title mb-0">Add Campaign</h4>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4 class="card-title mb-0">Add Campaign</h4>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row justify-content-end">
+                                            <div class="col-auto">
+                                                <button type="button" class="btn btn-primary"> <i
+                                                        class="ti ti-device-floppy fs-5"></i> Save Draft</button>
+                                            </div>
+                                            <div class="col-auto">
+                                                <button type="button" class="btn btn-success"><i
+                                                        class="ti ti-check fs-5"></i> Submit</button>
+                                            </div>
+                                            <div class="col-auto">
+                                                <button type="button" class="btn btn-danger"><i
+                                                        class="ti ti-trash fs-5"></i>Cancel</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+
+
+
                             <div class="card-body">
                                 <form>
                                     <div class="row">
+
                                         <div class="col-6 p-2">
                                             <div class="form-group">
-                                                <label for="">Campaign Name</label>
+
+                                                <label for="campaignname" placeholder="Enter campaign name">Campaign
+                                                    Name</label>
                                                 <input class="form-control" type="text"
                                                     placeholder="Enter campaign name"></input>
-                                            </div>
-                                        </div>
-                                        <div class="col-6 p-2">
-                                            <div class="form-group">
-                                                <label for="">Campaign Image</label>
-                                                <input class="form-control" type="file"></input>
-                                            </div>
-                                        </div>
-                                        <div class="col-6 p-2">
-                                            <div class="form-group">
-                                                <label for="">Vendor Type</label>
-                                                <select class="form-select" aria-label="Default select example">
-                                                    <option selected>Vendor1</option>
-                                                    <option value="1">Vendor2</option>
 
-                                                </select>
                                             </div>
                                         </div>
+
+
+                                        <div class="col-6 p-2">
+                                            <div class="form-group">
+                                                <label for="campaignimg" placeholder="">Campaign Image</label>
+                                                <input class="form-control" type="file"></input>
+
+                                            </div>
+                                        </div>
+
+
                                         <div class="col-6 p-2">
                                             <div class="form-group">
                                                 <label for="campaigndate" placeholder="">Campaign Start Date</label>
@@ -81,13 +103,28 @@
                                             </div>
                                         </div>
 
+
                                         <div class="col-6 p-2">
                                             <div class="form-group">
-                                                <label for="">Campaign Description</label>
+                                                <label for="campaigndesc" placeholder="Enter campaign name">Campaign
+                                                    Description</label>
                                                 <textarea class="form-control" rows="2" width="100" placeholder="Enter campaign description"></textarea>
 
                                             </div>
                                         </div>
+
+
+                                        <div class="col-6 p-2 py-4">
+                                            <div class="form-group">
+                                                <label for="campaignstatus">Status:</label>
+                                                <select class="form-select mr-sm-2" id="inlineFormCustomSelect">
+                                                    <option selected>Active</option>
+                                                    <option value="1">Expired</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
                                     </div>
 
                                 </form>
@@ -99,14 +136,13 @@
 
 
                     <div class="card card-body">
-
-                      <div class="border-bottom title-part-padding">
-                        <div class="row">
-                            <div class="col-6">
-                                <h4 class="card-title mb-0">Campaign Table</h4>
+                        <div class="border-bottom title-part-padding">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h4 class="card-title mb-0">Campaign Table</h4>
+                                </div>
                             </div>
                         </div>
-                    </div>
                         <div class="table-responsive">
                             <table class="table search-table align-middle text-nowrap">
                                 <thead class="header-item">
@@ -121,9 +157,10 @@
                                         </div>
                                     </th>
                                     <th>Campaign Name</th>
-                                    <th>Vendor Type</th>
+
                                     <th>Start Date</th>
                                     <th>End Date</th>
+
 
                                     <th>Discount</th>
                                 </thead>
@@ -155,22 +192,24 @@
                                                 </div>
                                             </div>
                                         </td>
+
                                         <td>
-                                            <span class="usr-email-addr" data-email="adams@mail.com">Vendor 1</span>
-                                        </td>
-                                        <td>
-                                            <span class="usr-location" data-location="Boston, USA"> 11:45:22 on 28 Feb
+                                            <span class="usr-location" data-location="Boston, USA"> 13:45:22 on 28 Feb
                                                 2024</span>
                                         </td>
                                         <td>
-                                            <span class="usr-location" data-location="Boston, USA"> 20:19:22 on 29 Feb
+                                            <span class="usr-location" data-location="Boston, USA"> 13:45:22 on 28 Feb
                                                 2024</span>
                                         </td>
 
+
+
+
+
                                         <td>
-                                          <span class="usr-location" data-location="Boston, USA"> <input
-                                                  class="form-control w-50" type="number" placeholder="%"></span>
-                                      </td>
+                                            <span class="usr-location" data-location="Boston, USA"> <input
+                                                    class="form-control w-50" type="number" placeholder="%"></span>
+                                        </td>
                                     </tr>
                                     <!-- end row -->
                                     <!-- start row -->
@@ -199,21 +238,24 @@
                                                 </div>
                                             </div>
                                         </td>
-                                        <td>
-                                            <span class="usr-email-addr" data-email="allen@mail.com">Vendor2</span>
-                                        </td>
-                                        <td>
-                                            <span class="usr-location" data-location="Sydney, Australia"> 02:45:22 on
-                                                27 Feb 2024</span>
-                                        </td>
+
                                         <td>
                                             <span class="usr-location" data-location="Sydney, Australia"> 13:45:22 on
                                                 28 Feb 2024</span>
                                         </td>
                                         <td>
-                                          <span class="usr-location" data-location="Boston, USA"> <input
-                                                  class="form-control w-50" type="number" placeholder="%"></span>
-                                      </td>
+                                            <span class="usr-location" data-location="Sydney, Australia"> 13:45:22 on
+                                                28 Feb 2024</span>
+                                        </td>
+
+
+
+
+
+                                        <td>
+                                            <span class="usr-location" data-location="Boston, USA"> <input
+                                                    class="form-control w-50" type="number" placeholder="%"></span>
+                                        </td>
                                     </tr>
 
                                 </tbody>
@@ -230,14 +272,16 @@
 
     <div class="modal fade" id="samedata-modal1" tabindex="-1" aria-labelledby="exampleModalLabel1">
         <div class="modal-dialog" role="document">
-          
             <div class="modal-content">
+
                 <div class="modal-header d-flex align-items-center">
                     <h4 class="modal-title" id="exampleModalLabel1">
                         Add Campaign
                     </h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+
+
                 <div class="modal-body">
                     <div class="col-12">
 

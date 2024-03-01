@@ -8,13 +8,13 @@
                 <div class="card-body px-4 py-3">
                     <div class="row align-items-center">
                         <div class="col-9">
-                            <h4 class="fw-semibold mb-8">Campaign</h4>
+                            <h4 class="fw-semibold mb-8">Customers</h4>
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item">
-                                        <a class="text-muted text-decoration-none" href="/services">Home</a>
+                                        <a class="text-muted text-decoration-none" href="/services">Retail</a>
                                     </li>
-                                    <li class="breadcrumb-item" aria-current="page">Campaign</li>
+                                    <li class="breadcrumb-item" aria-current="page">Customers</li>
                                 </ol>
                             </nav>
                         </div>
@@ -36,77 +36,33 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
-                            <div class="border-bottom title-part-padding">
-                                <h4 class="card-title mb-0">Add Campaign</h4>
-                            </div>
-                            <div class="card-body">
-                                <form>
-                                    <div class="row">
-                                        <div class="col-6 p-2">
-                                            <div class="form-group">
-                                                <label for="">Campaign Name</label>
-                                                <input class="form-control" type="text"
-                                                    placeholder="Enter campaign name"></input>
-                                            </div>
-                                        </div>
-                                        <div class="col-6 p-2">
-                                            <div class="form-group">
-                                                <label for="">Campaign Image</label>
-                                                <input class="form-control" type="file"></input>
-                                            </div>
-                                        </div>
-                                        <div class="col-6 p-2">
-                                            <div class="form-group">
-                                                <label for="">Vendor Type</label>
-                                                <select class="form-select" aria-label="Default select example">
-                                                    <option selected>Vendor1</option>
-                                                    <option value="1">Vendor2</option>
 
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-6 p-2">
-                                            <div class="form-group">
-                                                <label for="campaigndate" placeholder="">Campaign Start Date</label>
-                                                <input class="form-control" type="date"></input>
 
-                                            </div>
-                                        </div>
 
-                                        <div class="col-6 p-2">
-                                            <div class="form-group">
-                                                <label for="campaigndate" placeholder="">Campaign End Date</label>
-                                                <input class="form-control" type="date"></input>
 
-                                            </div>
-                                        </div>
 
-                                        <div class="col-6 p-2">
-                                            <div class="form-group">
-                                                <label for="">Campaign Description</label>
-                                                <textarea class="form-control" rows="2" width="100" placeholder="Enter campaign description"></textarea>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </form>
-
-                            </div>
                         </div>
                     </div>
 
 
 
                     <div class="card card-body">
+                        <div class="border-bottom title-part-padding">
 
-                      <div class="border-bottom title-part-padding">
-                        <div class="row">
-                            <div class="col-6">
-                                <h4 class="card-title mb-0">Campaign Table</h4>
+                            <div class="row d-flex justify-content-between">
+                                <div class="col-11">
+                                    <h4 class="card-title mb-0">Customer Data</h4>
+                                </div>
+                                <div class="col-1">
+                                    <button type="button"
+                                        class="d-inline-flex align-items-center justify-content-center btn btn-info btn-circle btn-lg">
+                                        <i class="fs-5 ti ti-printer"></i>
+                                    </button>
+                                </div>
                             </div>
+
+
                         </div>
-                    </div>
                         <div class="table-responsive">
                             <table class="table search-table align-middle text-nowrap">
                                 <thead class="header-item">
@@ -120,12 +76,12 @@
                                             </div>
                                         </div>
                                     </th>
-                                    <th>Campaign Name</th>
-                                    <th>Vendor Type</th>
-                                    <th>Start Date</th>
-                                    <th>End Date</th>
+                                    <th>Customers Name</th>
 
-                                    <th>Discount</th>
+                                    <th>Customer Email</th>
+                                    <th>Customer Contact Number</th>
+                                    <th>Last Order Date</th>
+                                    <th>Details</th>
                                 </thead>
                                 <tbody>
                                     <!-- start row -->
@@ -146,31 +102,37 @@
                                                     class="rounded-circle" width="35" />
                                                 <div class="ms-3">
                                                     <div class="user-meta-info">
-                                                        <h6 class="user-name mb-0" data-name="Emma Adams">Black Friday
-                                                            is here</h6>
-                                                        <span class="user-work fs-3"
-                                                            data-occupation="Web Developer">Discount on
-                                                            Electronics</span>
+                                                        <h6 class="user-name mb-0" data-name="Emma Adams">Sultan Khan
+                                                        </h6>
                                                     </div>
                                                 </div>
                                             </div>
                                         </td>
+
                                         <td>
-                                            <span class="usr-email-addr" data-email="adams@mail.com">Vendor 1</span>
+                                            <span class="usr-location"
+                                                data-location="Boston, USA">sultankhan@gmail.com</span>
                                         </td>
+
                                         <td>
-                                            <span class="usr-location" data-location="Boston, USA"> 11:45:22 on 28 Feb
-                                                2024</span>
+                                            <span class="usr-location" data-location="Boston, USA">+919856247514</span>
                                         </td>
+
                                         <td>
-                                            <span class="usr-location" data-location="Boston, USA"> 20:19:22 on 29 Feb
+                                            <span class="usr-location" data-location="Boston, USA"> 13:45:22 on 28 Feb
                                                 2024</span>
                                         </td>
 
                                         <td>
-                                          <span class="usr-location" data-location="Boston, USA"> <input
-                                                  class="form-control w-50" type="number" placeholder="%"></span>
-                                      </td>
+                                            <a href="/customerdetails">
+                                                <button type="button"
+                                                class="justify-content-center w-100 btn mb-1 bg-primary-subtle text-primary font-medium d-flex align-items-center">
+                                                <i class="ti ti-eye fs-4 me-2"></i>
+                                                View
+                                            </button>
+                                        </td>
+
+
                                     </tr>
                                     <!-- end row -->
                                     <!-- start row -->
@@ -191,29 +153,36 @@
                                                     class="rounded-circle" width="35" />
                                                 <div class="ms-3">
                                                     <div class="user-meta-info">
-                                                        <h6 class="user-name mb-0" data-name="Olivia Allen">Great
-                                                            CLoth Festival</h6>
-                                                        <span class="user-work fs-3"
-                                                            data-occupation="Web Designer">Cloth Sale</span>
+                                                        <h6 class="user-name mb-0" data-name="Olivia Allen">John Kumar
+                                                            Choubey</h6>
                                                     </div>
                                                 </div>
                                             </div>
                                         </td>
+
                                         <td>
-                                            <span class="usr-email-addr" data-email="allen@mail.com">Vendor2</span>
+                                            <span class="usr-location"
+                                                data-location="Boston, USA">johnchoub@hotmail.com</span>
                                         </td>
+
                                         <td>
-                                            <span class="usr-location" data-location="Sydney, Australia"> 02:45:22 on
-                                                27 Feb 2024</span>
+                                            <span class="usr-location" data-location="Boston, USA">+916587458963</span>
                                         </td>
+
                                         <td>
-                                            <span class="usr-location" data-location="Sydney, Australia"> 13:45:22 on
-                                                28 Feb 2024</span>
+                                            <span class="usr-location" data-location="Boston, USA"> 15:36:47 on 27 Feb
+                                                2024</span>
                                         </td>
+
                                         <td>
-                                          <span class="usr-location" data-location="Boston, USA"> <input
-                                                  class="form-control w-50" type="number" placeholder="%"></span>
-                                      </td>
+                                            <a href="/customerdetails">
+                                                <button type="button"
+                                                class="justify-content-center w-100 btn mb-1 bg-primary-subtle text-primary font-medium d-flex align-items-center">
+                                                <i class="ti ti-eye fs-4 me-2"></i>
+                                                View
+                                            </button>
+                                            </a>
+                                        </td>
                                     </tr>
 
                                 </tbody>
@@ -230,14 +199,16 @@
 
     <div class="modal fade" id="samedata-modal1" tabindex="-1" aria-labelledby="exampleModalLabel1">
         <div class="modal-dialog" role="document">
-          
             <div class="modal-content">
+
                 <div class="modal-header d-flex align-items-center">
                     <h4 class="modal-title" id="exampleModalLabel1">
                         Add Campaign
                     </h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+
+
                 <div class="modal-body">
                     <div class="col-12">
 

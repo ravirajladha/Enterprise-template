@@ -87,6 +87,8 @@
               <a href="javascript:void(0)" class="btn btn-primary w-100">Reset Filters</a>
             </div>
           </div>
+
+          
           <div class="card-body p-4 pb-0">
             <div class="d-flex justify-content-between align-items-center mb-4">
               <a class="btn btn-primary d-lg-none d-flex" data-bs-toggle="offcanvas" href="#offcanvasExample"

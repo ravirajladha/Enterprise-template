@@ -18,4 +18,8 @@ class DistributionController extends Controller
     {
         return view('distribution.mega_transaction');
     }
+    public function tree()
+    {
+        return view('distribution.tree');
+    }
 }
